@@ -1,0 +1,39 @@
+.arrayCont{
+    justify-content: absolute;
+    left: 150px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+
+.numBar{
+    width: 2px;
+    display: inline-block;
+    margin: 0 3px;
+}
+/* .numBar :last-child{
+    background-color: aquamarine;
+} */
+.but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+button{
+        color: red;
+        background: rgba(255,255,255,0.35);
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    
+}
